@@ -27,9 +27,13 @@
   </head>
   <body>
     <!-- Banner Section Start -->
-    <section class="container mx-auto grid grid-cols-2 pt-[68px]">
-      <div class="banner-left-content space-y-[30px]">
-        <h2 class="text-gray-950 text-[70px] font-extrabold 2xl:text-[80px]">
+    <section
+      class="container mx-auto grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 2xl:grid 2xl:grid-cols-2 pt-8 lg:pt-[68px] xl:pt-[68px] 2xl:pt-[68px] md:pt-10"
+    >
+      <div class="banner-left-content space-y-[30px] md:space-y-5">
+        <h2
+          class="text-gray-950 font-extrabold text-[40px] sm:text-[50px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[80px]"
+        >
           It's good <br />
           tea time at The <br />
           Tea House
@@ -52,8 +56,9 @@
       </div>
       <div class="banner-right-content flex justify-end items-end relative">
         <img src="./images/banner.png" alt="banner" class="" />
+        <!-- Ratings tooltip start -->
         <div
-          class="bg-white w-[255px] flex justify-between items-center rounded-xl shadow-2xl px-5 py-4 absolute left-20 bottom-2 2xl:left-52 2xl:bottom-2"
+          class="bg-white w-[255px] flex justify-between items-center rounded-xl shadow-2xl px-5 py-4 absolute left-7 bottom-2 sm:left-40 sm:bottom-2 md:-left-10 md:bottom-2 lg:left-8 lg:bottom-2 xl:left-20 xl:bottom-2 2xl:left-52 2xl:bottom-2"
         >
           <img src="./images/star.png" class="h-[50px] w-[50px]" alt="Rating" />
           <div class="">
@@ -63,6 +68,7 @@
             </h4>
           </div>
         </div>
+        <!-- Ratings tooltip end -->
       </div>
     </section>
     <!-- Banner Section End -->
